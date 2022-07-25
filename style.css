@@ -1,0 +1,219 @@
+@import './styles/sections/hero-section.css';
+@import './styles/sections/our-space-section.css';
+@import './styles/sections/why-frispes-section.css';
+@import './styles/sections/facilities-section.css';
+@import './styles/sections/gallery-section.css';
+@import './styles/sections/who-uses-section.css';
+@import './styles/sections/customer-reviews-section.css';
+@import './styles/sections/faq-section.css';
+@import './styles/sections/news-insight-section.css';
+@import './styles/sections/became-member-section.css';
+@import './styles/sections/footer.css';
+:root {
+    --primary-blue: #10375C;
+    --primary-orange: #FF5722;
+    --primary-gray: #6A6A6A;
+}
+
+body {
+    font-family: "Lato";
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v23-latin-regular.eot');
+    src: local(''), url('../fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-v23-latin-regular.svg#Lato') format('svg');
+}
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+    font-family: 'Lora';
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lora';
+}
+
+h3 {
+    margin: 0 15px;
+    font-size: 32px;
+    font-family: 'Lora';
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em 0 0 10%;
+}
+
+#line {
+    max-height: 2px;
+    padding-left: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.text-orange {
+    color: #DD2C00;
+}
+
+.btn-submit {
+    background-color: var(--primary-orange);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    color: white;
+    width: 310px;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+
+.arr-next {
+    background-color: var(--primary-orange);
+    position: absolute;
+    align-self: end;
+    padding: 0.8em;
+}
+
+.rectangle {
+    background-color: var(--primary-blue);
+    width: 300px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Lato';
+}
+
+.nav-arrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.why-frispes__aside h2,
+.became-member__content h2 {
+    font-family: 'Lora';
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.rotate270 {
+    transform: rotate(270deg);
+}
+
+svg {
+    height: 15px;
+    margin-left: 1em;
+    align-self: center;
+    fill: var(--primary-orange);
+}
+
+span {
+    font-weight: bold;
+    color: white;
+}
+
+.space-card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.our-space__cards .btn-more {
+    font-size: 16px;
+    border: none;
+    padding: 1em 1.2em;
+}
+
+.our-space__cards .btn-more span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+}
+
+.our-space__cards .btn-more span::after {
+    content: 'Check avaibility';
+    word-wrap: nowrap;
+    position: absolute;
+    opacity: 0;
+    border: none;
+}
+
+.our-space__cards .btn-more:hover span {
+    padding-right: 150px;
+    border: none;
+}
+
+.our-space__cards .btn-more:hover span:after {
+    opacity: 1;
+    right: 0;
+    transition-delay: 0.5s;
+}
+
+.arrow-r {
+    width: 70px;
+    height: 22px;
+    display: flex;
+}
+
+.arrow-r:before {
+    content: "";
+    background: var(--primary-orange);
+    width: 15px;
+    clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+    animation: a1 3.5s infinite linear;
+}
+
+.arrow-l {
+    content: "";
+    margin-right: 20px;
+    padding-right: 20px;
+    background: var(--primary-gray);
+    width: 15px;
+    clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+}
+
+@keyframes a1 {
+    90%,
+    100% {
+        flex-grow: 1
+    }
+}

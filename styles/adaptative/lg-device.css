@@ -1,0 +1,37 @@
+.intro,
+.content,
+.our-space__cards,
+.our-space__head,
+.why-frispes,
+.facilities__content,
+.facilities__heading h2 {
+    padding-left: 5%;
+    margin: 0;
+}
+
+.customer-reviews {
+    padding: 0;
+}
+
+.faq,
+.news-insight,
+.customer-reviews__head {
+    padding: 2px 5%;
+}
+
+.became-member,
+.menu {
+    padding: 5% 5% 0 5%
+}
+
+footer {
+    padding: 5%;
+}
+
+.became-member__portrait {
+    padding-left: 15%;
+}
+
+.became-member__content {
+    max-width: 43%;
+}

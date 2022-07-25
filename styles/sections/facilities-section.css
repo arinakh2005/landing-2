@@ -1,0 +1,56 @@
+.facilities__heading h2 {
+    color: var(--primary-blue);
+    padding-left: 10%;
+    padding-right: 50%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.facilities ul {
+    padding: 2em 0;
+    margin-right: 1em;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: bolder;
+}
+
+.facilities li {
+    list-style-type: none;
+    padding: 1em 3em 1em 1em;
+}
+
+.facilities li:hover {
+    background-color: var(--primary-orange);
+    color: white;
+    cursor: pointer;
+}
+
+.facilities__content {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    margin: 2% 10% 0 10%;
+    justify-content: space-between;
+}
+
+.facilities .slider {
+    display: flex;
+    flex-direction: column;
+    max-width: 60px;
+    max-height: 280px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facilities .slider p {
+    margin: 0;
+}
+
+.facilities .slider img {
+    min-width: 70px;
+    max-width: 110px;
+}
+
+#aside-img {
+    max-width: 630px;
+}

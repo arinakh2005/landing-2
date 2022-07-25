@@ -1,0 +1,118 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3em 10% 0 10%;
+    font-weight: 500;
+}
+
+.menu__item {
+    padding: 0 1em;
+    color: black;
+    font-size: 16px;
+}
+
+.menu__item:visited {
+    color: black;
+}
+
+.menu__title {
+    padding-right: 4em;
+    font-size: 24px;
+    color: var(--primary-blue);
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.menu__title:visited {
+    color: var(--primary-blue);
+}
+
+.menu__btn {
+    border: none;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+.btn-log-in {
+    background-color: transparent;
+    color: var(--primary-orange);
+    margin-left: 4em;
+}
+
+.btn-sign-up {
+    background-color: var(--primary-orange);
+    color: white;
+    filter: drop-shadow(0.5px 0.5px 3px rgb(214, 214, 214));
+}
+
+.hero .intro {
+    padding-top: 0;
+}
+
+.content__title {
+    width: 38em;
+    color: var(--primary-blue)
+}
+
+.content__subtitle {
+    color: var(--primary-gray);
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 2em;
+    max-width: 35%;
+}
+
+.slider__form {
+    width: 310px;
+    height: 290px;
+    background-color: var(--primary-blue);
+    margin-left: 10%;
+    padding: 3em;
+    color: white;
+    font-family: 'Lora';
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    margin-right: 58%;
+    padding-bottom: 4em;
+}
+
+.slider {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.slider__background {
+    max-width: 55em;
+}
+
+.choose-location {
+    background-color: #0D2C4A;
+    padding: 10px 20px;
+    margin: 1em 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-location__select {
+    padding: 0.2em 0;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.choose-location__label {
+    color: gray;
+}
+
+.label-title {
+    font-size: 34px;
+    font-weight: bold;
+}

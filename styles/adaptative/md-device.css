@@ -1,0 +1,211 @@
+#aside-img {
+    max-width: 400px;
+}
+
+.block img {
+    max-width: 200px;
+}
+
+.menu__title {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+.menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1em;
+    text-align: center;
+}
+
+.first-in-row {
+    border-left: 3px solid var(--primary-blue);
+}
+
+.menu__item,
+.menu__btn {
+    width: 15%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu__item {
+    border-right: 3px solid var(--primary-blue);
+}
+
+.btn-log-in {
+    margin-left: 0;
+}
+
+.slider__background {
+    max-width: 100%;
+}
+
+.slider__form {
+    margin-right: 49%;
+    height: auto;
+    padding: 2em;
+}
+
+.btn-submit {
+    width: auto;
+}
+
+.slider__form {
+    max-width: 250px;
+}
+
+.slider,
+.intro,
+.content,
+.our-space__cards,
+.our-space__head,
+.why-frispes,
+.facilities__content,
+.facilities__heading h2 {
+    padding: 0 3%;
+}
+
+img.space-card {
+    max-width: 200px;
+}
+
+.rectangle {
+    height: 190px;
+    width: 200px;
+}
+
+.why-frispes {
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 2em;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.why-frispes__cards {
+    min-width: 80%;
+    padding-left: 10%;
+}
+
+.facilities ul {
+    padding: 0;
+}
+
+.facilities li {
+    padding: 0.5em 2em 0.5em 0em;
+}
+
+.gallery .img2 {
+    background-size: 350px 460px;
+}
+
+.gallery .img1 {
+    background-size: 190px 185px;
+}
+
+.gallery__image {
+    min-height: 185px;
+}
+
+.gallery h2 {
+    padding: 10px;
+    margin: 0;
+}
+
+.gallery__head p {
+    padding-left: 15px;
+}
+
+.gallery__head .nav-arrow {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.gallery .intro {
+    padding: 0;
+}
+
+.who-uses__companies-logo {
+    padding: 1em 2%;
+}
+
+.customer-reviews__block {
+    max-width: 45%;
+}
+
+.customer-reviews__blocks {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+
+.customer-reviews__head .intro p,
+.facilities__heading .intro p,
+.hero .intro p {
+    margin: 0;
+}
+
+.customer-reviews {
+    padding-top: 3em;
+}
+
+.faq {
+    padding-top: 2em;
+}
+
+.faq h4 {
+    font-size: 22px;
+    padding: 0 0.5em;
+}
+
+.news-insight__content .block {
+    max-width: 45%;
+}
+
+.block img {
+    max-width: 310px;
+}
+
+.news-insight__content {
+    justify-content: space-around;
+}
+
+.became-member .intro {
+    padding: 0;
+}
+
+.became-member__portrait {
+    padding-left: 4%;
+}
+
+.became-member__content {
+    max-width: 60%;
+}
+
+.became-member {
+    padding-bottom: 0;
+}
+
+.became-member .btn-sign-up {
+    margin-bottom: 3em;
+}
+
+.news-insight {
+    padding-bottom: 1em;
+}
+
+h3.private-space {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+p.central-card {
+    padding: 3px;
+}
+
+.menu {
+    padding-bottom: 2em;
+}

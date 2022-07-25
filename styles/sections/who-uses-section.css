@@ -1,0 +1,29 @@
+.who-uses {
+    padding-top: 3em;
+}
+
+.who-uses__head {
+    text-align: center;
+}
+
+.who-uses__head h2 {
+    color: var(--primary-blue);
+    margin-bottom: 0;
+}
+
+.who-uses__head p {
+    color: var(--primary-gray);
+    font-size: 18px;
+    font-family: 'Lato';
+}
+
+.who-uses__companies-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 10%;
+}
+
+.who-uses__company-logo {
+    max-height: 30px;
+}

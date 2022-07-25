@@ -1,0 +1,269 @@
+.hero .content {
+    flex-wrap: wrap;
+}
+
+.hero h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero .content__subtitle {
+    max-width: 100%;
+    text-align: center;
+}
+
+.slider__background {
+    display: none;
+}
+
+.slider__form {
+    position: relative;
+    margin: 0 1em;
+}
+
+.slider {
+    justify-content: center;
+}
+
+.menu__item,
+.menu__btn {
+    width: 25%;
+}
+
+.first-in-row {
+    border-left: none;
+}
+
+.menu__item {
+    border: 18px solid var(--primary-blue);
+}
+
+.menu {
+    padding-bottom: 2em;
+}
+
+.our-space__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-space__head {
+    flex-wrap: wrap;
+    padding-top: 2em;
+}
+
+.our-space__head .nav-arrow {
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+p.central-card {
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+img.space-card {
+    max-width: 190px;
+}
+
+.space-card__img-group {
+    flex-wrap: wrap;
+    padding: 0 1em;
+}
+
+.space-card--second {
+    order: 2;
+}
+
+#aside-img {
+    max-width: 185px;
+    height: auto;
+}
+
+.facilities ul {
+    max-width: 50%;
+}
+
+.who-uses__companies-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.block img {
+    max-width: 195px;
+}
+
+.news-insight__content h3,
+.news-insight__content h6 {
+    font-size: 14px;
+    padding-bottom: 0;
+}
+
+.author {
+    word-wrap: nowrap;
+}
+
+.news-insight__content p {
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+.news-insight__content .author__name,
+.news-insight__content .author__work {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.author__img {
+    width: 30px;
+}
+
+.became-member__portrait {
+    display: none;
+}
+
+.became-member__content {
+    max-width: 100%;
+    text-align: center;
+}
+
+.became-member .intro {
+    justify-content: center;
+}
+
+footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__column {
+    align-items: center;
+    max-width: 100%;
+}
+
+.footer__column--row1 {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__column--row2 {
+    width: 30%
+}
+
+.footer__column--row3 {
+    width: 100%;
+    justify-self: center;
+}
+
+.faq h4 {
+    font-size: 15px;
+}
+
+.faq h2,
+.news-insight__header h2 {
+    font-size: 22px;
+}
+
+.customer-reviews__block {
+    max-width: 80%;
+}
+
+.customer-reviews__block .content {
+    padding: 1.5em 1.5em 0 1.5em;
+    font-size: 12px;
+}
+
+.customer-reviews__block--third {
+    width: 400px;
+}
+
+.customer-reviews__block .customer {
+    padding: 1.5em;
+}
+
+.customer__img,
+.author__img {
+    padding-left: 1em;
+}
+
+.customer-reviews__head h2 {
+    font-size: 35px;
+}
+
+.customer-reviews__head {
+    padding-bottom: 1em;
+}
+
+#customer-reviews__indicator {
+    margin: 1em 0 0 33%;
+}
+
+.who-uses__head p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.who-uses__head h2 {
+    margin-top: 5px;
+}
+
+.gallery {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 0 3%;
+    row-gap: 1em;
+}
+
+.gallery h2 {
+    padding-top: 0;
+}
+
+.gallery .img1 {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 220px;
+    background-size: 220px 240px;
+}
+
+.gallery .img2 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-size: 220px 215px;
+}
+
+.gallery .img3 {
+    grid-area: 3 / 1 / 4 / 3;
+    width: 220px;
+}
+
+.gallery .img4 {
+    grid-area: 3 / 2 / 4 / 3;
+    width: 220px;
+}
+
+.gallery__head {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.facilities li {
+    font-size: 14px;
+    padding: 0.5em 0em 0.5em 0em;
+    word-wrap: nowrap;
+}
+
+.facilities {
+    padding: 0 3%;
+}
+
+.facilities h2 {
+    padding: 0 10px 10px 10px;
+}
+
+#aside-img {
+    width: 200px;
+    max-width: max-content;
+}
+
+.why-frispes__aside {
+    max-width: 80%;
+}

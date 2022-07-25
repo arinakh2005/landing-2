@@ -1,0 +1,58 @@
+.became-member h2 {
+    color: white;
+    margin: 0
+}
+
+.became-member {
+    background-color: var(--primary-blue);
+    padding: 0 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.became-member__content {
+    max-width: 41%;
+}
+
+.became-member p {
+    color: #DFDFDF;
+    font-size: 20px;
+}
+
+.became-member .intro {
+    padding: 2em 0 0 0;
+}
+
+.became-member .btn-sign-up {
+    background-color: var(--primary-orange);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.5em 5em;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 400;
+    filter: none;
+}
+
+.became-member__portrait {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20%;
+}
+
+.became-member__portrait .portrait {
+    position: absolute;
+    max-height: 425px;
+    padding: 1em;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.became-member__portrait .pattern {
+    max-height: 340px;
+    margin-top: 42px;
+    padding: 1em;
+    padding-bottom: 0;
+}
